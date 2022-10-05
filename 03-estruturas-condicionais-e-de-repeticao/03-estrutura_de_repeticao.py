@@ -19,7 +19,6 @@ opcao = 0
 
 while opcao == 0:
     opcao = int(input("[1] Sacar \n[2] Extrato \n[3] Sair\n"))
-god
     if opcao == 1:
         print("Sacando...")
     elif opcao == 2:
