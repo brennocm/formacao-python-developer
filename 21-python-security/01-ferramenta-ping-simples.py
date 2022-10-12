@@ -1,0 +1,11 @@
+import os
+
+print()
+print("#" * 60)
+print()
+
+ip_ou_host = input("Digite o IP ou host a ser verificado: ")
+print("-" * 60)
+os.system("ping -n 6 {}". format(ip_ou_host))
+
+print("-" * 60)
